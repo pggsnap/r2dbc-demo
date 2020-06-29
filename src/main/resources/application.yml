@@ -1,0 +1,17 @@
+server:
+  port: 5001
+
+logging:
+  level:
+    org.springframework.data.r2dbc: DEBUG
+
+spring:
+  datasource:
+    userdb:
+      protocol: postgresql
+      driver: pool
+      database: userdb
+      host: 127.0.0.1
+      port: 5432
+      username: admin
+      password: admin@123
